@@ -1,0 +1,910 @@
+/* @media only screen and (min-width: 1367px){
+  .card p{
+    height: 85px;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .card p{
+    height: 75px;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 992px){
+  .card p{
+    height: 70px;
+    overflow: hidden;
+  }
+} */
+@media only screen and (max-width: 1366px) {
+  .card p {
+    min-height: 72px;
+  }
+  .side-wrapper .side-content.slideIn {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  /* #home_page_image .phone {
+    top: 13%;
+    left: 94%;
+  } */
+  p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 17px;
+  }
+  #servicii-section h2 {
+    font-size: 23px;
+  }
+  #servicii-section p {
+    font-size: 15px;
+  }
+  nav.second-bc ol {
+    top: 22%;
+  }
+  .mt25 {
+    margin-top: 20%;
+  }
+  .side-content .social-media.mt25 {
+    margin-top: 50px;
+  }
+  .toggler-container,
+  .search-container {
+    width: 326px !important;
+  }
+  /* #thumb-arrow-prev {
+    left: 3% !important;
+  }
+  #thumb-arrow-next {
+    right: 3% !important;
+  } */
+  .caz-first-image {
+    height: 484px;
+  }
+  #caz iframe {
+    height: 520px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .section-title {
+    top: 18%;
+  }
+  nav.second-bc ol {
+    top: 20%;
+  }
+  #tarife_serviciu .categorie {
+    padding: 15px 24px;
+    font-size: 17px;
+  }
+  /* #thumb-arrow-prev {
+    left: 1% !important;
+  }
+  #thumb-arrow-next {
+    right: 1% !important;
+  } */
+}
+
+@media only screen and (max-width: 1200px) {
+  #articol_page .grey-overlay {
+    height: 520px;
+  }
+  #imagini_caz .swiper-container.gallery-top {
+    height: 740px;
+  }
+  #tarife_serviciu .categorie {
+    padding: 15px 18px;
+    font-size: 15px;
+  }
+  #blog-section .swiper-button-next,
+  #blog-section .swiper-button-prev,
+  #swipper-articol .swiper-button-next,
+  #swipper-articol .swiper-button-prev {
+    top: 95% !important;
+  }
+  .swiper-mobile {
+    display: block;
+    /* padding-bottom: 25%; */
+  }
+
+  #row-desktop {
+    display: none;
+  }
+
+  .fa-upload {
+    left: 130px;
+  }
+  .echipa-detaliu-thumb {
+    height: 280px;
+    width: 280px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .discount {
+    width: 64px;
+    height: 64px;
+  }
+  #tarife .btn-primary {
+    height: 30px;
+    padding: 3px 18px;
+    font-size: 15px;
+  }
+  .p80 {
+    padding: 50px;
+  }
+  .caz-image {
+    height: 281px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #centered_pagination {
+    left: 0% !important;
+  }
+  #tarife_serviciu .categorie {
+    padding: 10px 2px;
+    font-size: 14px;
+  }
+  #detalii_serviciu_page .swiper-container.s4 .swiper-slide img,
+  #detalii_serviciu_page .swiper-container.s4 #iframe-video {
+    height: 500px;
+  }
+  #servicii-section .content-details p {
+    margin: 0px;
+  }
+  .toggler-container,
+  .search-container {
+    width: auto !important;
+  }
+  .search-nav {
+    display: block;
+  }
+  .logo {
+    display: block;
+  }
+  .mt25 {
+    margin-top: 8%;
+  }
+  .adresa1,
+  .search-icon,
+  #header-language {
+    display: none;
+  }
+  .horizontal_line {
+    display: block;
+  }
+  .dropdown-menu.show {
+    display: block;
+    transform: translate3d(0px, 0px, 0px) !important;
+    top: 35px !important;
+  }
+  footer input[type="text"] {
+    max-width: 95%;
+  }
+  .btn-trimite-footer {
+    max-width: 95%;
+  }
+  .page-wrapper .header-search,
+  .page-wrapper span {
+    display: none;
+  }
+  #home_page_image .phone {
+    top: 6%;
+    height: 40px;
+    width: 40px;
+  }
+  .p80 {
+    padding: 50px;
+  }
+  .header-phone {
+    display: block;
+    height: 40px;
+    width: 40px;
+  }
+  .phone {
+    display: none;
+  }
+  .schimba_limba {
+    display: flex !important;
+  }
+  #servicii-section .icon {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .caz-first-image {
+    height: 415px;
+  }
+  .caz-image {
+    height: 226px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #articol_page .grey-overlay {
+    height: 390px;
+  }
+  #tarife h4 {
+    margin-top: 15px;
+  }
+  #tarife .btn-primary {
+    margin: 0px;
+  }
+  #imagini_caz .swiper-container.gallery-top {
+    height: 540px;
+  }
+  #caz iframe {
+    height: 382px;
+  }
+  .caz-image {
+    height: 164px;
+  }
+  .caz-first-image {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .descriere-articol {
+    max-width: 400px;
+  }
+  /* .descriere-articol h4 {
+    font-size: 26px;
+  }
+  .descriere-articol p {
+    font-size: 20px;
+  }
+  .descriere-articol a {
+    font-size: 18px;
+  } */
+  .swiper-button-prev {
+    left: 82% !important;
+  }
+  #servicii-section h2 {
+    font-size: 22px;
+  }
+  #servicii-section p,
+  #servicii-section a {
+    font-size: 14px;
+  }
+  #articol_page p,
+  #articol_page li,
+  #articol_page span,
+  #descriere-caz p,
+  #descriere-caz span {
+    font-family: "LatoLight" !important;
+    font-size: 14px !important;
+  }
+  .servicii-section .icon {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .p80 {
+    padding: 10px;
+  }
+  .top-nav {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .echipa-detaliu-thumb {
+    height: 220px;
+    width: 220px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  #descriere-medic p {
+    font-size: 14px;
+  }
+
+  .tarif_box {
+    text-align: center;
+    flex-direction: column !important;
+  }
+  .discount {
+    width: 0px;
+    height: 0px;
+  }
+  .exista-discount {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 1rem;
+  }
+  .ml-3 {
+    margin-left: 0px !important;
+  }
+  .price_tarif_box {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .descriere-serviciu {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #footer-menu {
+    display: none !important;
+  }
+  #mail-mobile {
+    display: block;
+  }
+  #telefon-mobile {
+    display: block;
+  }
+  #adresa-mobile {
+    display: block;
+  }
+  #mail-desktop {
+    display: none;
+  }
+  #telefon-desktop {
+    display: none;
+  }
+  #adresa-desktop {
+    display: none;
+  }
+  footer .row .col-xl-4.col-md-12 {
+    justify-content: flex-start !important;
+  }
+  #homepage .swiper-container.s2,
+  #blog_page .swiper-container.s2 {
+    padding-bottom: 60px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #detalii_serviciu_page .swiper-container .card h4,
+  #echipa .card h4,
+  #swipper-detalii-serviciu .card h4 {
+    min-height: 20px;
+  }
+  #detalii_serviciu_page .swiper-container.s4 .swiper-slide img,
+  #detalii_serviciu_page .swiper-container.s4 #iframe-video {
+    height: 500px;
+  }
+  #articol_page .grey-overlay {
+    height: 287px;
+  }
+  #descriere-medic {
+    text-align: center;
+  }
+  .nav-pills li:not(:last-child) {
+    margin-right: 0px;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .nav-link {
+    text-align: center;
+  }
+  #tarife-nav .swiper-container-horizontal > .swiper-pagination-bullets,
+  #blog-nav .swiper-container-horizontal > .swiper-pagination-bullets {
+    top: 66%;
+    left: 23%;
+  }
+  #echipa-testimoniale .swiper-container.s2 .swiper-pagination {
+    top: 80% !important;
+  }
+  #tarife_serviciu .categorie {
+    padding: 7px 2px;
+    font-size: 16px;
+  }
+  #tarife_serviciu .mt-4 {
+    margin-top: 0% !important;
+  }
+  #blog-nav .swiper-container {
+    padding-bottom: 12%;
+  }
+  #blog-nav .swiper-container-horizontal > .swiper-pagination-bullets {
+    top: 73% !important;
+  }
+  #blog-nav a {
+    font-size: 12px;
+  }
+  #tarife-nav .nav-link.active,
+  #blog-nav .nav-link.active {
+    padding: 2px 20px;
+  }
+  #homepage .mt20,
+  #oferte_page .mt20,
+  #detaliu_echipa_page .mt20 {
+    margin-top: 10%;
+  }
+  .mt10-mobile {
+    margin-top: 10%;
+  }
+  .fa-calendar {
+    left: 87%;
+  }
+  .fa-clock-o {
+    left: 87%;
+  }
+
+  .swiper-container.s2 .swiper-button-prev {
+    top: 95%;
+    left: 220px;
+  }
+  .swiper-container.s2 .swiper-button-next {
+    top: 95%;
+  }
+
+  .swiper-container.s2 {
+    padding-bottom: 20% !important;
+  }
+  #servicii-section h2 {
+    font-size: 25px;
+  }
+  #servicii-section p {
+    font-size: 16px;
+  }
+  .cd-breadcrumb {
+    padding-left: 0px;
+  }
+  .p80 {
+    padding: 45px;
+  }
+  .descriere_serviciu > div {
+    justify-content: flex-start !important;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .testimonial_persoana p {
+    font-size: 14px;
+  }
+  #testimoniale-oferte
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets,
+  #testimoniale-page .swiper-container-horizontal > .swiper-pagination-bullets {
+    top: 75%;
+  }
+  /* #swipper-articol .swiper-container.s2 .swiper-button-prev {
+    left: 65% !important;
+  } */
+  .descriere-articol a,
+  .descriere-articol p {
+    font-size: 14px;
+  }
+  #consultatii_online_page .mt4 {
+    margin-top: 0%;
+  }
+  #consultatii_online_page .row .col-md-6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .fa-upload {
+    left: 25%;
+  }
+  .upload {
+    margin-bottom: 10px;
+  }
+  #formular-consultatii {
+    margin-top: 30px !important;
+  }
+
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-prev,
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-next {
+    top: 83%;
+  }
+  /* .echipa-thumb {
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .programare-online .mt20 {
+    margin-top: 10%;
+  }
+
+  #detalii_serviciu_page .mt4,
+  #tarife_page .mt4 {
+    margin-top: 15%;
+  }
+  #tarife-nav a {
+    font-size: 14px;
+  }
+  #tarife-nav .nav-link.active {
+    padding: 2px 10px;
+  }
+  #first_element .mt10 {
+    margin-top: 0px;
+  }
+  #homepage #galerie_homepage .mt4 {
+    margin-top: 0px;
+  }
+  #galerie_homepage .container_image {
+    padding-bottom: 20px;
+  }
+  .home_image {
+    width: 100%;
+  }
+  #blog_page
+    #blog-nav
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets {
+    top: 65% !important;
+  }
+  #info_utile_homepage .swiper-button-prev,
+  #info_utile_homepage .swiper-button-next {
+    top: 94% !important;
+  }
+  .caz-image {
+    height: 318px;
+    margin: 10px 0px;
+  }
+  #caz iframe {
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .info-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #imagini_caz .swiper-container.gallery-thumbs {
+    height: 120px;
+  }
+  #imagini_caz .swiper-container.gallery-top {
+    height: 400px;
+  }
+  .image {
+    height: 225px;
+  }
+  .img-wrapper img {
+    max-height: 225px;
+  }
+  #imagini_caz {
+    margin-top: 0px;
+  }
+  .swiper-container.s1 {
+    height: 75%;
+  }
+  #thumb-arrow-prev,
+  #thumb-arrow-next {
+    display: none;
+  }
+
+  #testimoniale-oferte .swiper-container {
+    margin-top: 0%;
+  }
+  #galerie_homepage img {
+    max-height: 315px;
+    object-fit: cover;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  #echipa a {
+    font-size: 14px;
+  }
+  .swiper-container.s2 .swiper-button-prev {
+    left: auto !important;
+    right: 75px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  #testimoniale_homepage
+    .swiper-container-horizontal
+    > .swiper-pagination-bullets {
+    top: 82% !important;
+  }
+  h1 {
+    font-size: 23px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .formular-rezervare {
+    height: 97%;
+  }
+  #articol_page .grey-overlay {
+    height: 273px;
+  }
+  .image {
+    height: 340px;
+  }
+  .img-wrapper img {
+    max-height: 340px;
+  }
+  .swiper-container.s4 p {
+    height: 65px;
+  }
+  .swiper-container.s1 {
+    height: 82%;
+  }
+  #servicii-section .p80,
+  #oferte-section .p80 {
+    padding: 20px;
+  }
+  nav.second-bc ol {
+    top: 200px;
+    left: 20px;
+  }
+  .section-title {
+    top: 180px;
+    left: 20px;
+  }
+  .header-phone {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+  }
+  #termeni-page-image .section-title {
+    top: 23%;
+    left: 3%;
+  }
+  .echipa-thumb {
+    width: 100px;
+    height: 100px;
+  }
+  #header_logo {
+    width: 160px;
+  }
+  .swiper-container.s2 .swiper-button-prev {
+    left: auto !important;
+    right: 75px;
+  }
+  .caz-image {
+    height: 275px;
+  }
+  .caz-first-image {
+    height: 256px;
+  }
+  #imagini_caz .breadcrumb-element,
+  #imagini_caz .bara-verticala,
+  #oferta_page_breadcrumb .breadcrumb-element,
+  #oferta_page_breadcrumb .bara-verticala,
+  #serviciu_breadcrumb .breadcrumb-element,
+  #serviciu_breadcrumb .bara-verticala,
+  #caz .breadcrumb-element,
+  #caz .bara-verticala {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card p {
+    min-height: 67px;
+  }
+  #articol_page .grey-overlay {
+    height: 223px;
+  }
+  #imagini_caz .swiper-container.gallery-top {
+    height: 350px;
+  }
+  #imagini_caz .swiper-container.gallery-thumbs {
+    height: 150px;
+  }
+  /* #imagini_caz {
+    margin-top: 30px;
+  } */
+  #detalii_serviciu_page .swiper-container.s4 .swiper-slide img,
+  #detalii_serviciu_page .swiper-container.s4 #iframe-video {
+    height: 280px;
+  }
+  #servicii-section h2 {
+    font-size: 20px;
+  }
+  .logo {
+    margin-left: 10%;
+    width: 200px;
+  }
+
+  .swiper-container {
+    padding-bottom: 8%;
+  }
+  .fa-upload {
+    left: 28%;
+  }
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-prev {
+    left: 70% !important;
+  }
+  #tarife-nav .swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 23%;
+  }
+  #formular-consultatii .rounded-checkbox {
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    padding: 5px;
+  }
+  .item img {
+    /* height: 250px; */
+    object-fit: cover;
+  }
+  #caz iframe {
+    height: 264px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  #articol_page .grey-overlay {
+    height: 192px;
+  }
+  .item img {
+    /* height: 200px; */
+    object-fit: cover;
+  }
+  .logo {
+    margin-left: 10%;
+  }
+  .swiper-mobile .swiper-container.s4 {
+    padding-bottom: 20%;
+  }
+  .swiper-mobile .swiper-container.s4 .swiper-button-next,
+  .swiper-mobile .swiper-container.s4 .swiper-button-prev {
+    top: 93%;
+  }
+  .swiper-mobile .swiper-container.s4 .swiper-button-next {
+    left: 18%;
+  }
+  .fa-upload {
+    left: 32%;
+  }
+  #imagini_caz .swiper-container.gallery-top {
+    height: 300px;
+  }
+  #imagini_caz .swiper-container.gallery-thumbs {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .logo {
+    margin: 18%;
+  }
+  .item img {
+    /* height: 150px; */
+    object-fit: cover;
+  }
+  label {
+    font-size: 10px;
+  }
+
+  .custom-button {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .testimonial_persoana p {
+    font-size: 16px;
+  }
+  .swiper-container {
+    padding-bottom: 12%;
+  }
+  #home_page_image .phone {
+    top: 5%;
+    height: 35px;
+    width: 35px;
+  }
+  #servicii-section h2 {
+    font-size: 18px;
+  }
+  #servicii-section .icon {
+    max-width: 35px;
+    max-height: 35px;
+  }
+  #servicii-section p {
+    font-size: 14px;
+  }
+  .header-phone {
+    height: 35px;
+    width: 35px;
+  }
+  .side-wrapper .side-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .search-nav {
+    width: 100%;
+  }
+  #oferte-section a {
+    font-size: 14px;
+  }
+  .smGlobalBtn {
+    width: 30px;
+    height: 30px;
+    line-height: 1.5em;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .fa-upload {
+    left: 35%;
+  }
+  #formular-consultatii .btn-primary {
+    height: 45px;
+    font-size: 16px;
+    padding: 5px 50px;
+  }
+  .echipa-thumb {
+    width: 60px;
+    height: 60px;
+  }
+  .echipa-detaliu-thumb {
+    height: 150px;
+    width: 150px;
+  }
+  .testimonial_persoana > img {
+    height: 50px;
+    width: 50px;
+  }
+  #tarife-serviciu .btn-primary,
+  #tarife .btn-primary {
+    height: 40px;
+    padding: 3px 50px;
+    font-size: 15px;
+  }
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-prev {
+    left: 66% !important;
+  }
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-next,
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-prev {
+    top: 87%;
+  }
+  .rounded-checkbox {
+    width: 10px;
+    height: 10px;
+  }
+  .btn-trimite-footer {
+    padding: 8px 34px;
+  }
+  #homepage .swiper-container.s2,
+  #blog_page .swiper-container.s2,
+  #articol_page .swiper-container.s2 {
+    padding-bottom: 95px !important;
+  }
+  .custom-button {
+    padding: 8px 32px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  .descriere-articol {
+    left: 24px;
+  }
+}
+@media only screen and (max-width: 397px) {
+  .descriere-articol {
+    left: 15px;
+  }
+}
+@media only screen and (max-width: 379px) {
+  .descriere-articol {
+    left: 5px;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .descriere-articol {
+    left: 0px;
+  }
+  #swipper-detalii-serviciu .swiper-container.s2 .swiper-button-prev {
+    left: 60% !important;
+  }
+  .image {
+    height: 270px;
+  }
+  .img-wrapper img {
+    max-height: 270px;
+  }
+}
